@@ -3,7 +3,7 @@
     padding:0;
 }
 :root{
-    --primary-color:#831843;
+    --primary-color:rgb(131, 24, 67);
     --secondary-color:#374151;
 }
 body{
@@ -47,4 +47,64 @@ body{
 ul :hover{
       background-color:var(--primary-color);
   } 
-  
+  .container{
+      margin:20vh auto;
+      background-color: rgba(131, 24, 67, 0.3);
+      max-width:fit-content;
+      padding:2rem;
+    
+  }
+  .container a{
+      padding:0.5rem;
+     background-color: var(--secondary-color);
+     border-radius: 0.5rem;
+      color:white;
+
+  }
+  .content{
+      text-align:center;
+      margin:2rem;
+      font-size:1.3rem;
+      font-weight: bold;
+      color:white;
+
+  }
+  .input{
+      margin:2rem;
+  }
+ 
+  #input-text{
+      max-width:4rem;
+      min-height:3rem;
+      background-color: rgba(131, 24, 67, 0.4);
+      color:white;
+      font-size:1.2rem;
+    
+  }
+  button{
+      background-color: var(--secondary-color);
+      padding:0.5rem;
+      border-radius:0.5rem;
+      border:2px solid black;
+      color:white;
+      cursor:pointer;
+      font-size:medium;
+      appearance: center;
+      
+  }
+  #submit-btn{
+      margin:auto;
+  }
+
+  .content p{
+      max-width: 50%;
+      margin:auto;
+      text-align: center;
+  }
+  #output{
+      border:2px solid var(--primary-color);
+      min-height:3rem;
+      max-width:20rem;
+      margin: 2rem auto;
+      color:white;
+  }

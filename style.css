@@ -64,23 +64,37 @@ ul :hover{
   .content{
       text-align:center;
       margin:2rem;
-      font-size:1.3rem;
+      font-size:1.5rem;
       font-weight: bold;
-      color:white;
+      
 
   }
   .input{
       margin:2rem;
   }
  
-  #input-text{
+  #input-text1 {
       max-width:4rem;
       min-height:3rem;
       background-color: rgba(131, 24, 67, 0.4);
-      color:white;
       font-size:1.2rem;
     
   }
+  #input-text2 {
+    max-width:4rem;
+    min-height:3rem;
+    background-color: rgba(131, 24, 67, 0.4);
+    font-size:1.2rem;
+  
+}
+  #input-text3 {
+    max-width:4rem;
+    min-height:3rem;
+    background-color: rgba(131, 24, 67, 0.4);
+    
+    font-size:1.2rem;
+  
+}
   button{
       background-color: var(--secondary-color);
       padding:0.5rem;
@@ -100,11 +114,12 @@ ul :hover{
       max-width: 50%;
       margin:auto;
       text-align: center;
+      font-weight:bold;
   }
   #output{
       border:2px solid var(--primary-color);
       min-height:3rem;
       max-width:20rem;
       margin: 2rem auto;
-      color:white;
+      text-align: center;
   }

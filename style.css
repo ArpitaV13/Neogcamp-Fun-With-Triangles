@@ -46,11 +46,12 @@ body{
   }
 ul :hover{
       background-color:var(--primary-color);
+      border-radius:0.5rem;
   } 
   .container{
       margin:20vh auto;
       background-color: rgba(131, 24, 67, 0.3);
-      max-width:fit-content;
+      max-width:70vw;
       padding:2rem;
     
   }
@@ -69,6 +70,7 @@ ul :hover{
       
 
   }
+ 
   .input{
       margin:2rem;
   }
@@ -113,13 +115,24 @@ ul :hover{
   .content p{
       max-width: 50%;
       margin:auto;
-      text-align: center;
       font-weight:bold;
   }
+
+ 
   #output{
       border:2px solid var(--primary-color);
       min-height:3rem;
       max-width:20rem;
       margin: 2rem auto;
       text-align: center;
+  }
+  
+  .triangle{
+      box-sizing: border-box;
+      border-bottom:2px solid black;
+      width:8rem;
+      margin: 4rem auto;
+      border-left:2px solid black;
+      height:8rem;
+      border-right:2px solid black;
   }

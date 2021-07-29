@@ -151,5 +151,41 @@ ul :hover{
     margin: 2rem auto;
     text-align: center;
 }
-  
+.options{
+    text-align:left;
+    font-size:1.2rem;
+    padding:1rem;
+}
+#output-area1{
+    border:2px solid var(--primary-color);
+    min-height:3rem;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+#output-area2{
+    border:2px solid var(--primary-color);
+    min-height:3rem;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+#output-area3{
+    border:2px solid var(--primary-color);
+    min-height:3rem;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+#output-area4{
+    border:2px solid var(--primary-color);
+    min-height:3rem;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+
+}
 

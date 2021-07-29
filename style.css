@@ -81,10 +81,24 @@ ul :hover{
   #input-text1 {
       max-width:4rem;
       min-height:3rem;
-      background-color: rgba(131, 24, 67, 0.4);
+      background-color: rgba(202, 91, 135, 0.4);
       font-size:1.2rem;
     
   }
+  #input-a {
+    max-width:4rem;
+    min-height:3rem;
+    background-color: rgba(131, 24, 67, 0.4);
+    font-size:1.2rem;
+  
+}
+#input-b {
+    max-width:4rem;
+    min-height:3rem;
+    background-color: rgba(131, 24, 67, 0.4);
+    font-size:1.2rem;
+  
+}
   #input-text2 {
     max-width:4rem;
     min-height:3rem;
@@ -130,15 +144,12 @@ ul :hover{
       text-align: center;
   }
   
-<<<<<<< HEAD
-  .triangle{
-      box-sizing: border-box;
-      border-bottom:2px solid black;
-      width:8rem;
-      margin: 4rem auto;
-      border-left:2px solid black;
-      height:8rem;
-  }
-=======
+  #output-hypo{
+    border:2px solid var(--primary-color);
+    min-height:3rem;
+    max-width:20rem;
+    margin: 2rem auto;
+    text-align: center;
+}
   
->>>>>>> c300fab14c441c2ff9eadff0604d3f18070cb052
+

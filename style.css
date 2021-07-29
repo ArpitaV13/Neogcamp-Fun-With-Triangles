@@ -48,6 +48,9 @@ ul :hover{
       background-color:var(--primary-color);
       border-radius:0.5rem;
   } 
+  #back-link:hover{
+    background-color:var(--primary-color);
+  }
   .container{
       margin:20vh auto;
       background-color: rgba(131, 24, 67, 0.3);
@@ -134,5 +137,4 @@ ul :hover{
       margin: 4rem auto;
       border-left:2px solid black;
       height:8rem;
-      border-right:2px solid black;
   }

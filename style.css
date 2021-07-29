@@ -75,45 +75,14 @@ ul :hover{
   }
  
   .input{
-      margin:2rem;
-  }
- 
-  #input-text1 {
+      margin:1rem;
       max-width:4rem;
       min-height:3rem;
       background-color: rgba(202, 91, 135, 0.4);
       font-size:1.2rem;
-    
-  }
-  #input-a {
-    max-width:4rem;
-    min-height:3rem;
-    background-color: rgba(131, 24, 67, 0.4);
-    font-size:1.2rem;
-  
 }
-#input-b {
-    max-width:4rem;
-    min-height:3rem;
-    background-color: rgba(131, 24, 67, 0.4);
-    font-size:1.2rem;
-  
-}
-  #input-text2 {
-    max-width:4rem;
-    min-height:3rem;
-    background-color: rgba(131, 24, 67, 0.4);
-    font-size:1.2rem;
-  
-}
-  #input-text3 {
-    max-width:4rem;
-    min-height:3rem;
-    background-color: rgba(131, 24, 67, 0.4);
-    
-    font-size:1.2rem;
-  
-}
+ 
+
   button{
       background-color: var(--secondary-color);
       padding:0.5rem;
@@ -125,9 +94,7 @@ ul :hover{
       appearance: center;
       
   }
-  #submit-btn{
-      margin:auto;
-  }
+  
 
   .content p{
       max-width: 50%;
@@ -136,7 +103,7 @@ ul :hover{
   }
 
  
-  #output{
+  .output{
       border:2px solid var(--primary-color);
       min-height:3rem;
       max-width:20rem;
@@ -144,48 +111,10 @@ ul :hover{
       text-align: center;
   }
   
-  #output-hypo{
-    border:2px solid var(--primary-color);
-    min-height:3rem;
-    max-width:20rem;
-    margin: 2rem auto;
-    text-align: center;
-}
+ 
 .options{
     text-align:left;
     font-size:1.2rem;
     padding:1rem;
-}
-#output-area1{
-    border:2px solid var(--primary-color);
-    min-height:3rem;
-    max-width:20rem;
-    margin: 2rem auto;
-    text-align: center;
-
-}
-#output-area2{
-    border:2px solid var(--primary-color);
-    min-height:3rem;
-    max-width:20rem;
-    margin: 2rem auto;
-    text-align: center;
-
-}
-#output-area3{
-    border:2px solid var(--primary-color);
-    min-height:3rem;
-    max-width:20rem;
-    margin: 2rem auto;
-    text-align: center;
-
-}
-#output-area4{
-    border:2px solid var(--primary-color);
-    min-height:3rem;
-    max-width:20rem;
-    margin: 2rem auto;
-    text-align: center;
-
 }
 

@@ -130,6 +130,7 @@ ul :hover{
       text-align: center;
   }
   
+<<<<<<< HEAD
   .triangle{
       box-sizing: border-box;
       border-bottom:2px solid black;
@@ -138,3 +139,6 @@ ul :hover{
       border-left:2px solid black;
       height:8rem;
   }
+=======
+  
+>>>>>>> c300fab14c441c2ff9eadff0604d3f18070cb052

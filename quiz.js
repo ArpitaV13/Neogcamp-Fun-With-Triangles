@@ -20,13 +20,13 @@ function optionHandler(x){
 }
 function quizHandler(){
     if(score==6){
-        outputQuiz.innerText="Hurray! You have marked all the right answers! Your score is "+score;
+        outputQuiz.innerText="Hurray! You have marked all the right answers! Your score is "+score+".";
     }
     if(score<6 && score>3){
-        outputQuiz.innerText="You can do better! Your score is "+score;
+        outputQuiz.innerText="You can do better! Your score is "+score+".";
     }
     if(score<=3){
-        outputQuiz.innerText="You need to work harder! Your score is "+score;
+        outputQuiz.innerText="You need to work harder! Your score is "+score+".";
 
     }
     

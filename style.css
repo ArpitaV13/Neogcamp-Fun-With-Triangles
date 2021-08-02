@@ -50,7 +50,7 @@ ul :hover{
       background-color:var(--primary-color);
       border-radius:0.5rem;
   }  
-  .back-link:hover{
+  #back-link:hover{
     background-color:var(--primary-color);
   }
   .container{
@@ -95,6 +95,9 @@ ul :hover{
       font-size:medium;
       appearance: center;
       
+  }
+  button :hover{
+      background-color: var(--primary-color);
   }
   
 

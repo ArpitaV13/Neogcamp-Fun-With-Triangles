@@ -119,3 +119,15 @@ ul :hover{
     padding:1rem;
 }
 
+.quiz{
+    text-align:left;
+    font-size:1.2rem;
+    padding:1rem;
+    margin:0.5rem;
+    
+}
+.radio label{
+    padding:1rem
+}
+
+

@@ -48,7 +48,7 @@
 
 function area4Calculate(){
   var a=document.getElementById("side").value;
-  var ans=1.732*(a*a);
+  var ans=(1.732*(a*a))/4;
   outputArea4.innerText=ans;
 }
 var radioBtns=document.querySelectorAll("areaCal");
